@@ -12,7 +12,7 @@ enum GameState {
     case lose
     case draw
     
-    // Computed property for status
+    // Computed property for status. Enums may not contain stored properties.
     var status: String {
         switch self {
         case .start:

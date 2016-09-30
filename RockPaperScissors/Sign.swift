@@ -28,7 +28,7 @@ enum Sign {
     case paper
     case scissors
     
-    // Computed property for emoji
+    // Computed property for emoji. Enums may not contain stored properties.
     var signValue: String {
         switch self {
         case .rock: return "👊"
